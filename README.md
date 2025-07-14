@@ -25,7 +25,7 @@ InsightMatch leverages advanced AI to analyze your resume against any job descri
 ## 🖥️ Live Demo
 
 Try InsightMatch instantly:  
-👉 [InsightMatch on Lovable](https://lovable.dev/projects/0cc6d20c-28a3-493e-996c-f8f6bd8e4889)
+👉 https://insight-match.vercel.app/
 
 ---
 
