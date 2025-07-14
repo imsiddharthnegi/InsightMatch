@@ -134,10 +134,10 @@ export const ResumeUpload = ({ onFileUpload, uploadedFile }: ResumeUploadProps) 
                 <Button 
                   className="gradient-primary shadow-glow"
                   onClick={() => {
-                    console.log("Select File button clicked");
                     const input = document.getElementById('resume-upload') as HTMLInputElement;
-                    console.log("File input element:", input);
-                    input?.click();
+                    if (input) {
+                      input.click();
+                    }
                   }}
                 >
                   <FileText className="h-4 w-4 mr-2" />
