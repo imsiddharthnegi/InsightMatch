@@ -87,6 +87,7 @@ export const Header = () => {
         <Button 
           variant="ghost" 
           size="sm"
+          onClick={() => console.log("Settings clicked")}
           className="text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all duration-200"
         >
           <Settings className="h-5 w-5" />
@@ -94,7 +95,10 @@ export const Header = () => {
 
         <Separator orientation="vertical" className="h-6" />
 
-        <div className="flex items-center space-x-2 px-3 py-2 bg-muted/50 rounded-full hover:bg-muted/80 transition-all duration-200 cursor-pointer">
+        <div 
+          className="flex items-center space-x-2 px-3 py-2 bg-muted/50 rounded-full hover:bg-muted/80 transition-all duration-200 cursor-pointer"
+          onClick={() => console.log("User profile clicked")}
+        >
           <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
             <User className="h-4 w-4 text-primary-foreground" />
           </div>

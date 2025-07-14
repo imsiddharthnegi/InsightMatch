@@ -278,11 +278,18 @@ export const AnalysisResults = ({ resumeFile, jobDescription }: AnalysisResultsP
 
       {/* Action Buttons */}
       <div className="flex space-x-4">
-        <Button className="gradient-primary shadow-glow flex-1">
+        <Button 
+          className="gradient-primary shadow-glow flex-1"
+          onClick={() => console.log("Download report clicked")}
+        >
           <Download className="h-4 w-4 mr-2" />
           Download Detailed Report
         </Button>
-        <Button variant="outline" className="flex-1">
+        <Button 
+          variant="outline" 
+          className="flex-1"
+          onClick={() => console.log("View comparison clicked")}
+        >
           <Eye className="h-4 w-4 mr-2" />
           View Side-by-Side Comparison
         </Button>
