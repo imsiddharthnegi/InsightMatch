@@ -45,10 +45,8 @@ export const ResumeUpload = ({ onFileUpload, uploadedFile }: ResumeUploadProps) 
   }, [handleFileUpload]);
 
   const handleFileSelect = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log("File input changed", e.target.files);
     const files = e.target.files;
     if (files && files.length > 0) {
-      console.log("Selected file:", files[0]);
       handleFileUpload(files[0]);
     }
     // Reset input value to allow re-selecting the same file
@@ -84,10 +82,10 @@ export const ResumeUpload = ({ onFileUpload, uploadedFile }: ResumeUploadProps) 
                   </p>
                 </div>
               </div>
-              <Button
                 variant="ghost"
-                size="sm"
-                onClick={removeFile}
+                  if (input) {
+                    input.click();
+                  }
                 className="text-muted-foreground hover:text-destructive"
               >
                 <X className="h-4 w-4" />
