@@ -82,10 +82,9 @@ export const ResumeUpload = ({ onFileUpload, uploadedFile }: ResumeUploadProps) 
                   </p>
                 </div>
               </div>
+              <Button
                 variant="ghost"
-                  if (input) {
-                    input.click();
-                  }
+                onClick={removeFile}
                 className="text-muted-foreground hover:text-destructive"
               >
                 <X className="h-4 w-4" />
