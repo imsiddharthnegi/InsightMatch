@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# InsightMatch
 
-## Project info
+**AI-Powered Resume Intelligence Platform**
 
-**URL**: https://lovable.dev/projects/0cc6d20c-28a3-493e-996c-f8f6bd8e4889
+InsightMatch is an AI-driven platform designed to help job seekers optimize their resumes for specific job descriptions. Effortlessly upload your resume and paste a job description to receive actionable, AI-powered feedback, match scoring, and detailed improvement reports.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Resume & Job Description Upload:** Supports PDF, DOCX, and TXT formats.
+- **AI-Powered Analysis:** Get instant match scoring and deep analysis of your resume against the job description.
+- **Actionable Feedback:** Receive targeted suggestions to improve your chances of landing interviews.
+- **Detailed Reports:** Download in-depth improvement reports for your records.
+- **Enterprise-Grade Security:** Your data is handled with security best practices in mind.
 
-**Use Lovable**
+## Demo
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0cc6d20c-28a3-493e-996c-f8f6bd8e4889) and start prompting.
+You can try the hosted version here: [InsightMatch on Lovable](https://lovable.dev/projects/0cc6d20c-28a3-493e-996c-f8f6bd8e4889)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
+- [shadcn-ui](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. Clone the repository
 
-Follow these steps:
+```bash
+git clone https://github.com/imsiddharthnegi/insight-match.git
+cd insight-match
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 2. Install dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 3. Start the development server
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Editing the Code
 
-**Use GitHub Codespaces**
+You can:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Use Lovable:** Visit your [Lovable Project](https://lovable.dev/projects/0cc6d20c-28a3-493e-996c-f8f6bd8e4889) for AI-powered editing and instant deployment.
+- **Use your IDE:** Clone and edit the code locally using your favorite editor. Push changes to GitHub to sync with Lovable.
+- **Edit directly on GitHub:** Use the web interface for quick fixes.
+- **Use GitHub Codespaces:** Launch a codespace for a cloud-based development environment.
 
-## What technologies are used for this project?
+## Free Deployment Options
 
-This project is built with:
+### Deploy on Lovable (Recommended for instant AI-powered deployment)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Go to your [Lovable Project Dashboard](https://lovable.dev/projects/0cc6d20c-28a3-493e-996c-f8f6bd8e4889).
+2. Click **Share → Publish** to make your project live.
+3. To add a custom domain: Go to **Project > Settings > Domains > Connect Domain** ([Guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)).
 
-## How can I deploy this project?
+### Deploy on Vercel (Free for hobby projects)
 
-Simply open [Lovable](https://lovable.dev/projects/0cc6d20c-28a3-493e-996c-f8f6bd8e4889) and click on Share -> Publish.
+1. Go to [Vercel](https://vercel.com/) and sign in with your GitHub account.
+2. Click **New Project** and import your `insight-match` repository.
+3. Vercel will auto-detect Vite and TypeScript. Click **Deploy**.
+4. Once deployed, you'll get a free public URL (e.g., `https://insight-match.vercel.app`).
 
-## Can I connect a custom domain to my Lovable project?
+### Deploy on Netlify (Free for personal projects)
 
-Yes, you can!
+1. Go to [Netlify](https://app.netlify.com/start) and connect your GitHub.
+2. Pick the `insight-match` repo.
+3. Set **Build Command:** `npm run build`
+4. Set **Publish directory:** `dist`
+5. Click **Deploy Site**.
+6. You'll get a free site URL (e.g., `https://insight-match.netlify.app`).
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
