@@ -2,11 +2,9 @@
 
 **AI-Powered Resume & Job Description Analyzer**  
 _Optimize your resume for every job — instantly._
-
 <p align="center">
-  <img src="https://lovable.dev/opengraph-image-p98pqg.png" alt="InsightMatch" width="600"/>
+  <img src="src/InsightMatch.jpg" alt="InsightMatch Screenshot" width="800"/>
 </p>
-
 ---
 
 InsightMatch leverages advanced AI to analyze your resume against any job description, giving you actionable insights, match scoring, and detailed feedback — so you can stand out in your job search.
